@@ -1,2 +1,86 @@
 @import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Roboto:wght@300;400;700;900&display=swap');
+/* font-family: 'Nunito', sans-serif; (weight: 400, 700, 900)
+font-family: 'Roboto', sans-serif; (weight:300,400,700)*/
+
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background: var(--color-bg);
+}
+
+header {
+    background-color: #101012;
+    position: relative;
+    width: 100%;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute; */
+
+}
+
+nav {
+    background-color: #1E1E1E;
+    position: fixed;
+    width: 75%;
+    height: 75%;
+    /* top: 0;
+    left: 0; */
+}
+
+nav a {
+    margin-left: 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+/* .nav-container {
+    margin-top: 5rem;
+} */
+
+.nav-element {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-current {
+    border-bottom: 3px solid #EBC610
+    ;
+}
+
+nav, #menu-checkbox {
+    display: none;
+}
+
+.burger-icon {
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+    left: 0px;
+  }
+
+/* #menu-checkbox:checked ~ .burger-icon {
+    display: none;
+    left: 0px;
+  } */
 
