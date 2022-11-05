@@ -81,6 +81,8 @@ header,
     width: 100%;
 }
 
+/* Hvorfor er top nødvendig her? burde den ikke legge seg relativt til headern? */
+
 nav a {
     display: block;
     color: white;
@@ -88,6 +90,145 @@ nav a {
     padding-top: 3rem;
     padding-left: 1rem;
     
+}
+
+.home-banner {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Venom-043.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-banner h1 {
+    font-size: 26px;
+    width: 50%;
+}
+
+button {
+    background-color: var(--color-main);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-hover);
+}
+
+.home-banner button {
+    width: 30%;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.movie-tile {
+    height: 200px;
+    position: relative;
+   
+}
+
+.movie-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/Aeon_Flux_008.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    height: 3.5rem;
+    bottom: 0;
+    width: 100%;
+    position: absolute;   
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.overlay-bg {
+    background-color: #000;
+    opacity: 0.5;
+    height: 100%;
+}
+
+.overlay-content {
+    position: absolute;
+    color: #fff;
+    z-index: 10;
+    padding: 1rem;
+}
+
+.movie-header,
+.movie-details,
+.movie-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-details {
+    font-weight: 300;
+}
+
+.movie-details-rating {
+    border: 1px solid #fff;
+    padding: 1px 8px;
+}
+
+.movie-details-rating,
+.movie-details-time,
+.movie-details-year {
+    margin-left: 0.75rem;
+}
+
+.movie-description {
+    padding-top: 1rem;
+}
+
+.movie-description a {
+    color: #fff;
+}
+
+.movie-footer {
+    margin-top: 2rem;
+}
+
+.movie-price {
+    display: flex;
+}
+
+.price-striked {
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+    font-size: 12px;
+}
+
+.movie-tile button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.movie-tile:hover .overlay {
+    height: 100%;
 }
 
 @media (min-width: 600px) {
