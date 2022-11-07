@@ -17,106 +17,6 @@ body {
 }
 
 
-/* HEADER */
-
-
-header, #nav-links, footer {
-    background-color: #101012;
-}
-
-header {
-    justify-content: space-between;
-    position: relative;
-    padding: 1rem;
-    
-}
-
-header,
-.header-icons-left,
-.header-icons-right {
-    display: flex;
-    align-items: center;
-}
-
-.burger-icon {
-    font-size: 2rem;
-    color: white;    
-}
-
-.logo {
-    margin-left: 1rem;
-    width: 73px;
-    height: 30px;
-}
-
-.searchbar {
-    width: 30%;
-    height: 30px;
-    border-radius: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-}
-
-.searchbar input {
-    border: none;
-    margin-left: 1rem;
-    width: 100%;
-    font-size: 14px;
-    outline: none;
-}
-
-
-.magnifier-icon {
-    margin-right: 1rem;
-}
-
-
-.user-icon {
-    margin-right: 0.5rem;
-}
-
-#nav-links {
-    display: none;
-    position: absolute;
-    padding-bottom: 2rem;
-    left: 0px;
-    top: 3rem;
-    width: 100%;
-}
-
-
-/* Hvorfor er top nødvendig her? burde den ikke legge seg relativt til headern? */
-
-nav a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding-top: 3rem;
-    padding-left: 1rem;
-    
-}
-
-nav a:hover .nav-link {
-    border-bottom: solid 2px #EBC610;
-}
-
-.user-icon,
-.cart-icon {
-    fill: white;
-    transition: 0.3s;
-}
-
-
-.user-icon:hover {
-    fill: #EBC610;
-}
-
-.cart-icon:hover {
-    fill: #EBC610;
-}
-
 /* HERO BANNER */
 
 
@@ -364,50 +264,13 @@ footer {
 
 
 @media (min-width: 600px) {
-    .burger-icon {
-        display: none;
-    }
-
-    header {
-        padding-left: 10%;
-        padding-right: 10%;
-        margin-left: -5%;
-        margin-right: -5%;
-    }
-
-    #nav-links {
-        display: flex;
-        position: relative;
-        top: 0rem;
-        padding-bottom: 0rem;
-        width: 300px;
-    }
-
-    nav a {
-        padding-left: 1.5rem;
-        padding-top: 0rem;
-    }
+   
 
 }
 
 @media (min-width: 1280px) {
     
-    header {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    .searchbar {
-        width: 50%;
-    }
-
-    #nav-links {
-        width: 30%;
-    }
-
-    nav a {
-        padding-left: 10%;
-    }
+   
     
     .home-banner {
         height: 540px;
@@ -517,9 +380,8 @@ footer {
     /* header {
         display: block;
     } */
-    .searchbar {
+    /* .searchbar {
         display: none;
-    }
+    } */
 }
 
-/* kan jeg flytte searchbaren under når skjermen blir mindre? må jeg i så fall endre på html? */

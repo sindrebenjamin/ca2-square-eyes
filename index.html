@@ -9,6 +9,7 @@
       name="description"
       content="Square Eyes is a streaming service that offers direct purchase of your favorite movies from your favorite directors."
     />
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/variables.css" />
     <script src="javascript.js"></script>
@@ -19,6 +20,8 @@
   </head>
   <body>
     <header>
+      <section class="top-header">
+
         <section class="header-icons-left">
             <a href="javascript:void(0);" class="burger-icon" onclick="myFunction()">
                 <i class="fas fa-bars"></i>
@@ -26,12 +29,13 @@
             ><img
               class="logo"
               src="/images/SquareEyes_Logo_upgraded_compressed.png"
-              alt="SquareEyes Logo"
+              alt="Square Eyes Logo"
             />
           </a>
         </section>
+
         <section class="searchbar">
-          <input type="text" placeholder="Search...">
+          <input class="search-placeholder" type="text" placeholder="Search...">
           <svg class="magnifier-icon" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_645_271)">
           <path d="M11.8615 10.844C12.8298 9.5227 13.2635 7.8845 13.0759 6.25716C12.8882 4.62982 12.093 3.13335 10.8493 2.06714C9.60567 1.00093 8.0053 0.443613 6.36839 0.506686C4.73147 0.569759 3.17873 1.24857 2.02082 2.40732C0.862902 3.56606 0.185201 5.11929 0.123299 6.75624C0.0613971 8.3932 0.619859 9.99317 1.68696 11.2361C2.75406 12.4789 4.25109 13.2731 5.87857 13.4596C7.50604 13.6461 9.14393 13.2112 10.4646 12.242H10.4635C10.4935 12.282 10.5255 12.32 10.5616 12.357L14.4115 16.207C14.5991 16.3946 14.8534 16.5001 15.1187 16.5002C15.384 16.5003 15.6384 16.395 15.826 16.2075C16.0137 16.02 16.1192 15.7656 16.1193 15.5004C16.1193 15.2351 16.0141 14.9806 15.8265 14.793L11.9766 10.943C11.9408 10.9068 11.9024 10.8734 11.8615 10.843V10.844ZM12.1195 7.00001C12.1195 7.72228 11.9773 8.43748 11.7009 9.10477C11.4245 9.77206 11.0194 10.3784 10.5086 10.8891C9.99792 11.3998 9.3916 11.8049 8.72431 12.0813C8.05702 12.3577 7.34182 12.5 6.61955 12.5C5.89728 12.5 5.18208 12.3577 4.51479 12.0813C3.8475 11.8049 3.24118 11.3998 2.73046 10.8891C2.21974 10.3784 1.81461 9.77206 1.53821 9.10477C1.26181 8.43748 1.11955 7.72228 1.11955 7.00001C1.11955 5.54132 1.69901 4.14237 2.73046 3.11092C3.76191 2.07947 5.16086 1.50001 6.61955 1.50001C8.07824 1.50001 9.47719 2.07947 10.5086 3.11092C11.5401 4.14237 12.1195 5.54132 12.1195 7.00001Z" fill="black" fill-opacity="0.25"/>
@@ -46,8 +50,8 @@
         
         <nav id="nav-links">
             <a href="pages/browse.html"><span class="nav-link">Browse</span></a>
-            <a href="pages/contact.html"><span class="nav-link">Contact</span></a>
-            <a href="pages/about.html"><span class="nav-link">About Us</span></a>
+            <a href="pages/contact.html"><span class="nav-link link-move">Contact</span></a>
+            <a href="pages/about.html"><span class="nav-link link-move">About Us</span></a>
           </nav>
         <section class="header-icons-right">
             <a href="#"
@@ -88,6 +92,22 @@
               </svg>
             </a>
           </section>
+
+        </section>
+        
+          <section class="searchbar-mobile">
+            <input class="search-placeholder" type="text" placeholder="Search...">
+            <svg class="magnifier-icon" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_645_271)">
+            <path d="M11.8615 10.844C12.8298 9.5227 13.2635 7.8845 13.0759 6.25716C12.8882 4.62982 12.093 3.13335 10.8493 2.06714C9.60567 1.00093 8.0053 0.443613 6.36839 0.506686C4.73147 0.569759 3.17873 1.24857 2.02082 2.40732C0.862902 3.56606 0.185201 5.11929 0.123299 6.75624C0.0613971 8.3932 0.619859 9.99317 1.68696 11.2361C2.75406 12.4789 4.25109 13.2731 5.87857 13.4596C7.50604 13.6461 9.14393 13.2112 10.4646 12.242H10.4635C10.4935 12.282 10.5255 12.32 10.5616 12.357L14.4115 16.207C14.5991 16.3946 14.8534 16.5001 15.1187 16.5002C15.384 16.5003 15.6384 16.395 15.826 16.2075C16.0137 16.02 16.1192 15.7656 16.1193 15.5004C16.1193 15.2351 16.0141 14.9806 15.8265 14.793L11.9766 10.943C11.9408 10.9068 11.9024 10.8734 11.8615 10.843V10.844ZM12.1195 7.00001C12.1195 7.72228 11.9773 8.43748 11.7009 9.10477C11.4245 9.77206 11.0194 10.3784 10.5086 10.8891C9.99792 11.3998 9.3916 11.8049 8.72431 12.0813C8.05702 12.3577 7.34182 12.5 6.61955 12.5C5.89728 12.5 5.18208 12.3577 4.51479 12.0813C3.8475 11.8049 3.24118 11.3998 2.73046 10.8891C2.21974 10.3784 1.81461 9.77206 1.53821 9.10477C1.26181 8.43748 1.11955 7.72228 1.11955 7.00001C1.11955 5.54132 1.69901 4.14237 2.73046 3.11092C3.76191 2.07947 5.16086 1.50001 6.61955 1.50001C8.07824 1.50001 9.47719 2.07947 10.5086 3.11092C11.5401 4.14237 12.1195 5.54132 12.1195 7.00001Z" fill="black" fill-opacity="0.25"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_645_271">
+            <rect width="16" height="16" fill="white" transform="translate(0.119507 0.5)"/>
+            </clipPath>
+            </defs>
+            </svg>
+            </section>
     </header>
     <main>
       <section class="home-banner">
