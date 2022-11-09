@@ -109,7 +109,7 @@ nav a:hover .nav-link {
 .user-icon,
 .cart-icon {
     fill: white;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
 
 
