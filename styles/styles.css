@@ -16,6 +16,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+footer {
+    background-color: #101012;
+}
+
 
 /* HERO BANNER */
 
@@ -127,7 +131,6 @@ button:hover {
     z-index: 2;
     top: 0;
     left: 0;
-    /* background-image: url("empty.gif"); */
 }
 
 .overlay {
@@ -262,12 +265,6 @@ footer {
 
 
 
-
-@media (min-width: 600px) {
-   
-
-}
-
 @media (min-width: 1280px) {
     
    
@@ -357,6 +354,7 @@ footer {
 
 
 @media (min-width: 1550px) {
+
     .movie-tile:hover .overlay-content {
         margin-top: 20px;
     }
@@ -367,21 +365,20 @@ footer {
 }
 
 
-/* @media (min-width: 2000px) {
-    header {
-        padding-left: 25%;
-        padding-right: 25%;
+@media (min-width: 2000px) {
+
+    .movie-tile:hover .overlay-content {
+        margin-top: 50px;
     }
-} */
 
+    .movie-tile {
+        height: 300px;
+    }
 
-@media (max-width: 600px) {
-
-    /* header {
-        display: block;
-    } */
-    /* .searchbar {
-        display: none;
-    } */
+    .movie-footer {
+        margin-top: 10%;
+    }
+    
 }
+
 

@@ -1,6 +1,5 @@
 header, 
-#nav-links, 
-footer {
+#nav-links {
     background-color: #101012;
 }
 
@@ -58,6 +57,7 @@ header,
     left: 0px;
     top: 3rem;
     width: 100%;
+    z-index: 10;
 }
 
 

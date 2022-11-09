@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse- Square Eyes</title>
+    <meta
+      name="description"
+      content="Browse thousands of movies and buy them directly from the creators"
+    />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/variables.css" />
+    <link rel="stylesheet" href="../styles/browse.css">
+    <script src="../javascript.js"></script>
+    <script
+      src="https://kit.fontawesome.com/00254567e3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+        <section class="top-header">
+  
+          <section class="header-icons-left">
+              <a href="javascript:void(0);" class="burger-icon" onclick="myFunction()">
+                  <i class="fas fa-bars"></i>
+              <a href="../index.html"
+              ><img
+                class="logo"
+                src="../images/SquareEyes_Logo_upgraded_compressed.png"
+                alt="Square Eyes Logo"
+              />
+            </a>
+          </section>
+  
+          <section class="searchbar">
+            <input class="search-placeholder" type="text" placeholder="Search...">
+            <svg class="magnifier-icon" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_645_271)">
+            <path d="M11.8615 10.844C12.8298 9.5227 13.2635 7.8845 13.0759 6.25716C12.8882 4.62982 12.093 3.13335 10.8493 2.06714C9.60567 1.00093 8.0053 0.443613 6.36839 0.506686C4.73147 0.569759 3.17873 1.24857 2.02082 2.40732C0.862902 3.56606 0.185201 5.11929 0.123299 6.75624C0.0613971 8.3932 0.619859 9.99317 1.68696 11.2361C2.75406 12.4789 4.25109 13.2731 5.87857 13.4596C7.50604 13.6461 9.14393 13.2112 10.4646 12.242H10.4635C10.4935 12.282 10.5255 12.32 10.5616 12.357L14.4115 16.207C14.5991 16.3946 14.8534 16.5001 15.1187 16.5002C15.384 16.5003 15.6384 16.395 15.826 16.2075C16.0137 16.02 16.1192 15.7656 16.1193 15.5004C16.1193 15.2351 16.0141 14.9806 15.8265 14.793L11.9766 10.943C11.9408 10.9068 11.9024 10.8734 11.8615 10.843V10.844ZM12.1195 7.00001C12.1195 7.72228 11.9773 8.43748 11.7009 9.10477C11.4245 9.77206 11.0194 10.3784 10.5086 10.8891C9.99792 11.3998 9.3916 11.8049 8.72431 12.0813C8.05702 12.3577 7.34182 12.5 6.61955 12.5C5.89728 12.5 5.18208 12.3577 4.51479 12.0813C3.8475 11.8049 3.24118 11.3998 2.73046 10.8891C2.21974 10.3784 1.81461 9.77206 1.53821 9.10477C1.26181 8.43748 1.11955 7.72228 1.11955 7.00001C1.11955 5.54132 1.69901 4.14237 2.73046 3.11092C3.76191 2.07947 5.16086 1.50001 6.61955 1.50001C8.07824 1.50001 9.47719 2.07947 10.5086 3.11092C11.5401 4.14237 12.1195 5.54132 12.1195 7.00001Z" fill="black" fill-opacity="0.25"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_645_271">
+            <rect width="16" height="16" fill="white" transform="translate(0.119507 0.5)"/>
+            </clipPath>
+            </defs>
+            </svg>
+            </section>
+          
+          <nav id="nav-links">
+              <a href="../pages/browse.html"><span class="nav-link">Browse</span></a>
+              <a href="../pages/contact.html"><span class="nav-link link-move">Contact</span></a>
+              <a href="../pages/about.html"><span class="nav-link link-move">About Us</span></a>
+            </nav>
+          <section class="header-icons-right">
+              <a href="#"
+                ><svg
+                  class="user-icon"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.16984 6.83027C7.16984 10.3879 10.2259 13.2831 13.9812 13.2831C17.7365 13.2831 20.7925 10.3879 20.7925 6.83027C20.7925 3.27261 17.7365 0.377441 13.9812 0.377441C10.2259 0.377441 7.16984 3.27261 7.16984 6.83027ZM26.0902 27.6227H27.6038V26.1888C27.6038 20.6551 22.8495 16.151 17.0084 16.151H10.9539C5.11131 16.151 0.358521 20.6551 0.358521 26.1888V27.6227H26.0902Z"
+                    
+                  />
+                </svg>
+              </a>
+              <a href="pages/cart.html"
+                ><svg
+                  class="cart-icon"
+                  width="30"
+                  height="28"
+                  viewBox="0 0 30 28"
+                  
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.5675 6.43264C29.3052 5.9795 28.9296 5.60188 28.4773 5.33661C28.025 5.07135 27.5115 4.92748 26.9869 4.91906H7.55627L6.67582 1.49838C6.58686 1.16817 6.3884 0.877725 6.11275 0.674342C5.83711 0.47096 5.50052 0.366624 5.1578 0.378329H2.12177C1.71917 0.378329 1.33306 0.537795 1.04838 0.821645C0.763693 1.1055 0.60376 1.49048 0.60376 1.89191C0.60376 2.29333 0.763693 2.67832 1.04838 2.96217C1.33306 3.24602 1.71917 3.40548 2.12177 3.40548H4.00411L8.19383 18.9348C8.28279 19.265 8.48125 19.5554 8.7569 19.7588C9.03255 19.9622 9.36914 20.0665 9.71185 20.0548H23.374C23.6543 20.054 23.9289 19.9758 24.1674 19.8288C24.4059 19.6819 24.5989 19.472 24.725 19.2224L29.7041 9.2933C29.9199 8.84228 30.0204 8.345 29.9965 7.84584C29.9727 7.34668 29.8253 6.86117 29.5675 6.43264Z"
+                    
+                  />
+                  <path
+                    d="M8.95284 27.6227C10.2104 27.6227 11.2299 26.6062 11.2299 25.3524C11.2299 24.0985 10.2104 23.082 8.95284 23.082C7.69528 23.082 6.67582 24.0985 6.67582 25.3524C6.67582 26.6062 7.69528 27.6227 8.95284 27.6227Z"
+                    
+                  />
+                  <path
+                    d="M24.133 27.6227C25.3906 27.6227 26.41 26.6062 26.41 25.3524C26.41 24.0985 25.3906 23.082 24.133 23.082C22.8754 23.082 21.856 24.0985 21.856 25.3524C21.856 26.6062 22.8754 27.6227 24.133 27.6227Z"
+                    
+                  />
+                </svg>
+              </a>
+            </section>
+  
+          </section>
+          
+            <section class="searchbar-mobile">
+              <input class="search-placeholder" type="text" placeholder="Search...">
+              <svg class="magnifier-icon" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_645_271)">
+              <path d="M11.8615 10.844C12.8298 9.5227 13.2635 7.8845 13.0759 6.25716C12.8882 4.62982 12.093 3.13335 10.8493 2.06714C9.60567 1.00093 8.0053 0.443613 6.36839 0.506686C4.73147 0.569759 3.17873 1.24857 2.02082 2.40732C0.862902 3.56606 0.185201 5.11929 0.123299 6.75624C0.0613971 8.3932 0.619859 9.99317 1.68696 11.2361C2.75406 12.4789 4.25109 13.2731 5.87857 13.4596C7.50604 13.6461 9.14393 13.2112 10.4646 12.242H10.4635C10.4935 12.282 10.5255 12.32 10.5616 12.357L14.4115 16.207C14.5991 16.3946 14.8534 16.5001 15.1187 16.5002C15.384 16.5003 15.6384 16.395 15.826 16.2075C16.0137 16.02 16.1192 15.7656 16.1193 15.5004C16.1193 15.2351 16.0141 14.9806 15.8265 14.793L11.9766 10.943C11.9408 10.9068 11.9024 10.8734 11.8615 10.843V10.844ZM12.1195 7.00001C12.1195 7.72228 11.9773 8.43748 11.7009 9.10477C11.4245 9.77206 11.0194 10.3784 10.5086 10.8891C9.99792 11.3998 9.3916 11.8049 8.72431 12.0813C8.05702 12.3577 7.34182 12.5 6.61955 12.5C5.89728 12.5 5.18208 12.3577 4.51479 12.0813C3.8475 11.8049 3.24118 11.3998 2.73046 10.8891C2.21974 10.3784 1.81461 9.77206 1.53821 9.10477C1.26181 8.43748 1.11955 7.72228 1.11955 7.00001C1.11955 5.54132 1.69901 4.14237 2.73046 3.11092C3.76191 2.07947 5.16086 1.50001 6.61955 1.50001C8.07824 1.50001 9.47719 2.07947 10.5086 3.11092C11.5401 4.14237 12.1195 5.54132 12.1195 7.00001Z" fill="black" fill-opacity="0.25"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_645_271">
+              <rect width="16" height="16" fill="white" transform="translate(0.119507 0.5)"/>
+              </clipPath>
+              </defs>
+              </svg>
+              </section>
+      </header>
+      <main>
+        <h1>Showing 29603 Movies</h1>
+        <section class="filter-container">
+            <div class="filter-left">
+            <span class="filter-action">Action
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.34128 1.78366C1.31222 1.7546 1.28918 1.72011 1.27345 1.68215C1.25773 1.64418 1.24963 1.6035 1.24963 1.56241C1.24963 1.52132 1.25773 1.48063 1.27345 1.44267C1.28918 1.4047 1.31222 1.37021 1.34128 1.34116C1.37033 1.3121 1.40483 1.28905 1.44279 1.27333C1.48075 1.25761 1.52144 1.24951 1.56253 1.24951C1.60362 1.24951 1.64431 1.25761 1.68227 1.27333C1.72023 1.28905 1.75472 1.3121 1.78378 1.34116L5.00003 4.55803L8.21628 1.34116C8.24533 1.3121 8.27983 1.28905 8.31779 1.27333C8.35575 1.25761 8.39644 1.24951 8.43753 1.24951C8.47862 1.24951 8.51931 1.25761 8.55727 1.27333C8.59523 1.28905 8.62972 1.3121 8.65878 1.34116C8.68783 1.37021 8.71088 1.4047 8.72661 1.44267C8.74233 1.48063 8.75042 1.52132 8.75042 1.56241C8.75042 1.6035 8.74233 1.64418 8.72661 1.68215C8.71088 1.72011 8.68783 1.7546 8.65878 1.78366L5.4419 4.99991L8.65878 8.21616C8.68783 8.24521 8.71088 8.2797 8.72661 8.31767C8.74233 8.35563 8.75042 8.39632 8.75042 8.43741C8.75042 8.4785 8.74233 8.51918 8.72661 8.55715C8.71088 8.59511 8.68783 8.6296 8.65878 8.65866C8.62972 8.68771 8.59523 8.71076 8.55727 8.72648C8.51931 8.74221 8.47862 8.7503 8.43753 8.7503C8.39644 8.7503 8.35575 8.74221 8.31779 8.72648C8.27983 8.71076 8.24533 8.68771 8.21628 8.65866L5.00003 5.44178L1.78378 8.65866C1.75472 8.68771 1.72023 8.71076 1.68227 8.72648C1.64431 8.74221 1.60362 8.7503 1.56253 8.7503C1.52144 8.7503 1.48075 8.74221 1.44279 8.72648C1.40483 8.71076 1.37033 8.68771 1.34128 8.65866C1.31222 8.6296 1.28918 8.59511 1.27345 8.55715C1.25773 8.51918 1.24963 8.4785 1.24963 8.43741C1.24963 8.39632 1.25773 8.35563 1.27345 8.31767C1.28918 8.2797 1.31222 8.24521 1.34128 8.21616L4.55815 4.99991L1.34128 1.78366Z" fill="white"/>
+                </svg>
+            </span>
+            <a href="#">Clear All</a>
+        </div>
+        <div class="filter-right">
+            <svg class="filter-icon" width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.65517 21.2812L15.1724 17.7812V12.1813L24.8276 0.28125H0L9.65517 12.1813V21.2812Z" fill="white"/>
+                </svg>
+                <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.2088 8.49024L16.5545 0.190439C16.5373 0.134901 16.5026 0.0863926 16.4556 0.0520949C16.4087 0.0177972 16.3519 -0.000466159 16.2937 9.04376e-06H14.0262C13.9061 9.04376e-06 13.8035 0.0761809 13.7654 0.190439L11.0906 8.49024C11.0818 8.51661 11.076 8.54591 11.076 8.5752C11.076 8.72462 11.199 8.84766 11.3484 8.84766H13.0008C13.1238 8.84766 13.2293 8.76563 13.2645 8.64845L13.7771 6.84376H16.3846L16.8914 8.64552C16.9236 8.7627 17.032 8.84474 17.1551 8.84474H18.948C18.9773 8.84474 19.0037 8.84181 19.0301 8.83302C19.1004 8.80958 19.1561 8.7627 19.1912 8.69825C19.2234 8.6338 19.2293 8.56055 19.2088 8.49024ZM14.0437 5.31739L15.0047 1.89259H15.1893L16.1297 5.31739H14.0437ZM18.2479 19.7578H14.451V19.7461L18.3357 14.2119C18.368 14.165 18.3855 14.1123 18.3855 14.0537V12.9873C18.3855 12.8379 18.2625 12.7149 18.1131 12.7149H12.1365C11.9871 12.7149 11.8641 12.8379 11.8641 12.9873V14.2471C11.8641 14.3965 11.9871 14.5195 12.1365 14.5195H15.7283V14.5313L11.8289 20.0654C11.7964 20.1118 11.779 20.167 11.7791 20.2236V21.29C11.7791 21.4395 11.9021 21.5625 12.0516 21.5625H18.2449C18.3943 21.5625 18.5174 21.4395 18.5174 21.29V20.0303C18.5178 19.9946 18.5111 19.9593 18.4977 19.9262C18.4843 19.8932 18.4646 19.8631 18.4395 19.8378C18.4144 19.8125 18.3846 19.7923 18.3517 19.7786C18.3188 19.7649 18.2835 19.7578 18.2479 19.7578ZM6.79863 16.3477H4.57207V0.820322C4.57207 0.691415 4.4666 0.585947 4.3377 0.585947H2.69707C2.56816 0.585947 2.4627 0.691415 2.4627 0.820322V16.3477H0.236133C0.0398438 16.3477 -0.0714844 16.5762 0.0515624 16.7285L3.33281 20.8857C3.35474 20.9138 3.38275 20.9364 3.41473 20.952C3.4467 20.9676 3.48181 20.9757 3.51738 20.9757C3.55295 20.9757 3.58806 20.9676 3.62004 20.952C3.65202 20.9364 3.68003 20.9138 3.70195 20.8857L6.9832 16.7285C7.10332 16.5762 6.99492 16.3477 6.79863 16.3477Z" fill="white"/>
+                    </svg>
+                                    
+        </div>
+        </section>
+        <section class="movie-container">
+            <div class="movie-tile" title="Cover of Smokin' Aces">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image smokin-aces"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2 class="long-title">Smokin' Aces</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Aether Flux">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image aether-flux"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Aether Flux</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Ant Man">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image ant-man"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Ant Man</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/cart.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+            </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Aquaman">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image aquaman"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Aquaman</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Bad Boys">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image bad-boys"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Bad Boys</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Brightburn">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image brightburn"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Brightburn</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            
+            <div class="movie-tile" title="Cover of John Wick">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image john-wick"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>John Wick</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Marvel">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image marvel"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Marvel</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">13+</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Mayhem">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image mayhem"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Mayhem</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/cart.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+            </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Mission Impossible">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image mission-impossible"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2 class="long-title">Mission Impossible</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Snowpiercer">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image snowpiercer"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Snowpiercer</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Star Wars">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image star-wars"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Star Wars</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            
+            <div class="movie-tile" title="Cover of Sucker Punch">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image sucker-punch"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2 class="long-title">Sucker Punch</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Mission Impossible">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image mission-impossible2"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2 class="long-title">Mission Impossible</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Tomb Raider">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image tomb-raider"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Tomb Raider</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/cart.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+            </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Tron">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image tron"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Tron</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Underwater">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image underwater"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Underwater</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+            <div class="movie-tile" title="Cover of Venom">
+              <a href="pages/product.html"><span class="invisible-overlay-link">
+              <a href="pages/product.html"><div class="movie-image venom"></div></a>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="movie-header">
+                  <h2>Venom</h2>
+                  <div class="movie-details">
+                    <div class="movie-details-year">
+                      2006
+                    </div>
+                    <div class="movie-details-time">
+                      1h 48 min
+                    </div>
+                    <div class="movie-details-rating">R</div>
+                  </div>
+                </div>
+                  <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                    Buddy Israel decides to turn state's evidence and 
+                    testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                    <div class="movie-footer">
+                    <div class="movie-price">
+                      <p>$12.59</p>
+                      <p class="price-striked">$19.99</p>
+                    </div>
+                    <a href="pages/product.html"><button>Add to Cart</button></a>
+                  </div>
+                  </div>
+                  <div class="overlay-bg"></div>
+              </div>
+              </span></a>
+            </div>
+                <div class="movie-tile" title="Cover of Smokin' Aces">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image smokin-aces"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2 class="long-title">Smokin' Aces</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Aether Flux">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image aether-flux"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Aether Flux</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Ant Man">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image ant-man"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Ant Man</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/cart.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Aquaman">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image aquaman"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Aquaman</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Bad Boys">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image bad-boys"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Bad Boys</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Brightburn">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image brightburn"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Brightburn</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                
+                <div class="movie-tile" title="Cover of John Wick">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image john-wick"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>John Wick</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Marvel">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image marvel"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Marvel</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">13+</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Mayhem">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image mayhem"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Mayhem</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/cart.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Mission Impossible">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image mission-impossible"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2 class="long-title">Mission Impossible</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Snowpiercer">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image snowpiercer"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Snowpiercer</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Star Wars">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image star-wars"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Star Wars</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                
+                <div class="movie-tile" title="Cover of Sucker Punch">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image sucker-punch"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2 class="long-title">Sucker Punch</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Mission Impossible">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image mission-impossible2"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2 class="long-title">Mission Impossible</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Tomb Raider">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image tomb-raider"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Tomb Raider</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/cart.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Tron">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image tron"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Tron</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Underwater">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image underwater"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Underwater</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+                <div class="movie-tile" title="Cover of Venom">
+                  <a href="pages/product.html"><span class="invisible-overlay-link">
+                  <a href="pages/product.html"><div class="movie-image venom"></div></a>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="movie-header">
+                      <h2>Venom</h2>
+                      <div class="movie-details">
+                        <div class="movie-details-year">
+                          2006
+                        </div>
+                        <div class="movie-details-time">
+                          1h 48 min
+                        </div>
+                        <div class="movie-details-rating">R</div>
+                      </div>
+                    </div>
+                      <div class="movie-description">When a Las Vegas performer-turned-snitch named 
+                        Buddy Israel decides to turn state's evidence and 
+                        testify against the mob, it seems... <a href="pages/product.html" class="more-info">More info</a></div>
+                        <div class="movie-footer">
+                        <div class="movie-price">
+                          <p>$12.59</p>
+                          <p class="price-striked">$19.99</p>
+                        </div>
+                        <a href="pages/product.html"><button>Add to Cart</button></a>
+                      </div>
+                      </div>
+                      <div class="overlay-bg"></div>
+                  </div>
+                  </span></a>
+                </div>
+            
+            
+          </section>
+      </main>
+  </body>
+</html>
