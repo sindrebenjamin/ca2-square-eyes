@@ -40,6 +40,8 @@ footer {
 .home-banner h1 {
     font-size: 26px;
     width: 50%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
 }
 
 button {

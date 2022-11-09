@@ -93,6 +93,23 @@ h1 {
 
 .page-numbers {
     display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.page-numbers a {
+    text-decoration: none;
+}
+
+.page {
+    color: white;
+}
+
+.page-current {
+    color: #EBC610;
 }
 
 @media (min-width: 800px) {
@@ -108,6 +125,11 @@ h1 {
     .filter-wrapper-mobile {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .page-numbers {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -186,5 +208,14 @@ h1 {
         margin-left: 0.5rem;
     }
 
+    .page-numbers {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
 
+
+}
+
+@media (min-width: 1500px) {
+   
 }
