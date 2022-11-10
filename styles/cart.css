@@ -27,7 +27,7 @@ body {
     margin-right: 0.3rem;
 }
 
-h1 {
+.cart-overview-h1 {
     font-weight: 900;
     margin-left: 5%;
     margin-top: 5%;
@@ -98,3 +98,73 @@ img {
 }
 
 
+.card-number-wrapper,
+.expiration-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.card-number-wrapper,
+.expiration-wrapper {
+    height: 30px;
+    background-color: white;
+    border-radius: 6px;
+    padding-left: 0.5rem;
+}
+
+.card-number-wrapper input,
+.expiration-wrapper input {
+    height: 100%;
+    width: 100%;
+    padding-left: 0.5rem;
+    border-radius: 6px;
+}
+
+
+
+.name-container,
+.cvv-container,
+.card-number-container,
+.expiration-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container input,
+.cvv-container input {
+    height: 30px;
+    padding-left: 0.5rem;
+    border-radius: 6px;
+}
+
+form {
+    background-color: #e6e6e6;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2rem;
+}
+
+form input {
+    border: none;
+    outline: none;
+}
+
+form input::placeholder {
+    font-size: 14px;
+    font-family: "roboto", sans-serif;
+}
+
+.bottom-row-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.cvv-container {
+    width: 10%;
+}
+
+.expiration-container {
+    width: 25%;
+}
