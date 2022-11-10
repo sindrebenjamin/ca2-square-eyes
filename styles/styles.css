@@ -168,10 +168,11 @@ button:hover {
 .movie-header h2 {
     margin: auto;
     font-size: 16px;
+    white-space: nowrap;
 }
 
 .movie-tile .long-title {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .movie-details {
@@ -265,6 +266,10 @@ footer {
     .home-banner h1 {
         font-size: 2rem;
     }
+
+    .movie-tile .long-title  {
+        font-size: 16px;
+    }
 }
 
 
@@ -299,6 +304,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-weight: 300;
     }
 
     .movie-tile h2 {
@@ -307,10 +313,7 @@ footer {
         white-space: nowrap;
     }
 
-    
-    .movie-details {
-        font-weight: 300;
-    }
+
     
     .movie-details-rating {
         border: 1px solid #fff;

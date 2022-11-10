@@ -1,0 +1,100 @@
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    font-family: "Roboto", sans-serif;
+}
+
+.back-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--color-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.back-button svg {
+    margin-right: 0.3rem;
+}
+
+h1 {
+    font-weight: 900;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.item-smokin-aces {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1rem;
+}
+
+.item-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+
+img {
+    max-width: 100px;
+}
+
+.movie-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+
+.movie-details-rating {
+    border: 1px solid black;
+    padding: 1px 8px;
+}
+
+.movie-details-rating,
+.movie-details-time,
+.movie-details-year {
+    margin-right: 0.75rem;
+}
+
+.item-price {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0.3rem;
+}
+
+.item-smokin-aces a {
+    color: black;
+}
+
+.divider {
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin: 2rem 5% 0 5%;
+}
+
+.total-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 5% 0 5%;
+}
+
+.total-sum {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+
