@@ -47,17 +47,18 @@ header,
 }
 
 .nav-link {
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
 }
 
 #nav-links {
     display: none;
     position: absolute;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     left: 0px;
     top: 3rem;
     width: 100%;
     z-index: 10;
+    padding-left: 5%;
 }
 
 
@@ -99,7 +100,7 @@ nav a {
     display: block;
     color: white;
     text-decoration: none;
-    padding-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 nav a:hover .nav-link {
@@ -109,7 +110,7 @@ nav a:hover .nav-link {
 .user-icon,
 .cart-icon {
     fill: white;
-    /* transition: 0.3s; */
+    transition: 0.3s;
 }
 
 

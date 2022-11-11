@@ -1,3 +1,9 @@
+@import url(variables.css);
+
+/* :root {
+    accent-color: var(--color-main);
+} */
+
 *, 
 *::before, 
 *::after {
@@ -7,8 +13,25 @@
 }
 
 body {
-    /* background-color: red; */
+    background: var(--color-bg);
     font-family: "Roboto", sans-serif;
+    color: white;
+    
+}
+
+.cart-overview-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1rem;
+}
+
+.back-link {
+    color: #fff;
+    display: none;
+}
+
+.back-link svg {
+    margin-right: 0.5rem;
 }
 
 .back-button {
@@ -19,8 +42,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
-    margin-left: 5%;
 }
 
 .back-button svg {
@@ -29,13 +50,12 @@ body {
 
 .cart-overview-h1 {
     font-weight: 900;
-    margin-left: 5%;
-    margin-top: 5%;
+    font-size: 2rem;
+    margin-top: 1rem;
 }
 
 .item-smokin-aces {
     display: flex;
-    margin-left: 5%;
     margin-top: 1rem;
 }
 
@@ -60,7 +80,7 @@ img {
 }
 
 .movie-details-rating {
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 1px 8px;
 }
 
@@ -77,24 +97,49 @@ img {
 }
 
 .item-smokin-aces a {
-    color: black;
+    color: white;
 }
 
 .divider {
     border-bottom: 1px solid rgb(196, 196, 196);
-    margin: 2rem 5% 0 5%;
+    margin: 2rem 5% 0rem 0;
+    width: 100%;
 }
 
 .total-price {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem 5% 0 5%;
+    margin-bottom: 2rem;
+    margin-top: 0.3rem;
 }
 
 .total-sum {
-    font-weight: 700;
-    font-size: 1.7rem;
+    /* font-weight: 700; */
+    font-size: 1.3rem;
+}
+
+
+form h1 {
+    margin-bottom: 2rem;
+}
+
+.payment-method {
+    margin-bottom: 1rem;
+}
+
+
+.new-card-container {
+    margin-top: 0.3rem;
+}
+
+.new-card,
+.old-card {
+    margin-left: 0.2rem;
+}
+
+input[name="card-type"] {
+    accent-color: var(--color-main);
 }
 
 
@@ -120,6 +165,9 @@ img {
     border-radius: 6px;
 }
 
+.name-container {
+    margin-top: 2rem;
+}
 
 
 .name-container,
@@ -138,10 +186,11 @@ img {
 }
 
 form {
-    background-color: #e6e6e6;
+    background-color: #1F202F;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 form input {
@@ -157,14 +206,124 @@ form input::placeholder {
 .bottom-row-container {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: flex-start;
     width: 100%;
 }
 
 .cvv-container {
-    width: 10%;
+    max-width: 46px;
+    margin-left: 1rem;
 }
 
 .expiration-container {
-    width: 25%;
+    max-width: 88px;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+.cvv-container,
+.expiration-container,
+.card-number-container {
+    margin-top: 1rem;
+}
+
+.pay-button {
+    background-color: var(--color-main);
+    color: white;
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.pay-button:hover {
+    background-color: var(--color-hover);
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 600px) {
+}
+
+
+@media (min-width: 840px) {
+    
+    .back-button {
+        margin-bottom: 2rem;
+    }
+
+    form h1 {
+        font-size: 2rem;
+    }
+
+    .main-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+
+    .cart-overview-wrapper {
+        margin-top: 3rem;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    form {
+        border-radius: 6px;
+        width: 420px;
+        margin-top: 3rem;
+        margin-right: 5%;
+    }
+
+    .form-wrapper {
+        margin-right: 5%;
+    }
+
+    .bottom-row-container {
+        width: 40%;
+        justify-content: space-between;
+    }
+    .bottom-completed {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .card-number-container {
+        margin-right: 1rem;
+        max-width: 300px;
+    }
+}
+
+
+@media (min-width: 1280px) {
+
+    .back-button {
+        display: none;
+    }
+
+    .back-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        align-items: center; 
+        opacity: 0.5;
+        margin-bottom: 2rem;
+        transition-duration: 0.3s;
+    }
+
+    .back-link:hover {
+        opacity: 1;
+    }
+
+
+    .main-wrapper {
+        max-width: 1500px;
+        margin: auto;
+        margin-top: 3rem;
+    }
 }
