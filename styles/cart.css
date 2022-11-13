@@ -16,6 +16,7 @@ body {
     background: var(--color-bg);
     font-family: "Roboto", sans-serif;
     color: white;
+    height: 100vh;
     
 }
 

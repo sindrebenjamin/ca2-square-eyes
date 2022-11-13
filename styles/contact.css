@@ -8,7 +8,6 @@
 }
 
 .contact-introduction {
-    color: #fff;
     margin-bottom: 2rem;
 }
 
@@ -18,9 +17,6 @@
     margin-bottom: 1rem;
 }
 
-.contact-label {
-    color: #fff;
-}
 
 .contact-input::placeholder {
     font-size: 14px;
@@ -76,9 +72,7 @@
   
 }
 
-.contact-info {
-    color: #fff;
-}
+
 
 .info-box {
     margin-bottom: 2rem;

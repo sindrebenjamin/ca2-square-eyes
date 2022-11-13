@@ -1,23 +1,24 @@
 h1 {
-    color: #fff;
     font-family: "Nunito", sans-serif;
     margin-left: 5%;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-
-.filter-wrapper-mobile {
+.filter-wrapper-mobile,
+.filter-container {
     display: flex;
     align-items: center;
+}
+
+
+.filter-wrapper-mobile {
     justify-content: space-between;
     white-space: nowrap;
     margin-bottom: 1rem;
 }
 
 .filter-container {
-    display: flex;
-    align-items: center;
     justify-content: flex-start;
     width: 100%;
     overflow: scroll;
@@ -39,7 +40,6 @@ h1 {
     padding: 7px 15px;
     border-radius: 50px;
     margin-right: 0.3rem;
-    color: #fff;
 }
 
 .filter-selected {
@@ -52,7 +52,6 @@ h1 {
 }
 
 .filter-container a {
-    color: #fff;
     width: 1000px;
     white-space: nowrap;
     margin-left: 0.5rem;
@@ -70,7 +69,10 @@ h1 {
     border-radius: 50px;     
 }
 
-.black-arrow {
+.black-arrow,
+.order-selection,
+.studio-selector,
+.collection-selector {
     color: black;
 }
 
@@ -104,7 +106,8 @@ h1 {
     text-decoration: none;
 }
 
-.page {
+.page,
+.filter-link {
     color: white;
 }
 
@@ -115,7 +118,6 @@ h1 {
 @media (min-width: 800px) {
     .order-selection {
         display: flex;   
-        
     }
 
     .f-action {
@@ -176,13 +178,12 @@ h1 {
     .genre-selector {
         background-color: #6563AE;
         border: 1px solid #a3a1e2;
-        color: #fff;
     }
 
   
     .filter-link {
-        color: #fff;
         margin-left: 0.5rem;
+        text-decoration: none;
     }
 
     .filter-selection,
@@ -197,7 +198,6 @@ h1 {
         padding: 7px 15px;
         border-radius: 50px;
         margin-right: 0.3rem;
-        color: #fff;
         background-color:#29285B;
         border: 1px solid #9897ce;
     }
@@ -212,8 +212,4 @@ h1 {
     }
 
 
-}
-
-@media (min-width: 1500px) {
-   
 }
