@@ -1,8 +1,5 @@
 @import url(variables.css);
-
-/* :root {
-    accent-color: var(--color-main);
-} */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Roboto:wght@300;400;700;900&display=swap');
 
 *, 
 *::before, 
@@ -27,7 +24,7 @@ body {
 }
 
 .back-link {
-    color: #fff;
+    color: white;
     display: none;
 }
 
@@ -53,6 +50,7 @@ body {
     font-weight: 900;
     font-size: 2rem;
     margin-top: 1rem;
+    font-family: "nunito", sans-serif;
 }
 
 .item-smokin-aces {
@@ -116,7 +114,6 @@ img {
 }
 
 .total-sum {
-    /* font-weight: 700; */
     font-size: 1.3rem;
 }
 
