@@ -1,5 +1,5 @@
 # Square Eyes
-![square eyes index](https://user-images.githubusercontent.com/111867312/215828495-325144fe-3d42-4c87-84fa-83f0384c32b1.jpg)
+![square eyes index](https://user-images.githubusercontent.com/111867312/215828495-325144fe-3d42-4c87-84fa-83f0384c32b1.jpg "Square Eyes homepage")
 
 ## Description
 In this assignment I put everything I have learned about HTML and CSS so far to create a website for "Square Eyes", a fictional movie streaming service.  
